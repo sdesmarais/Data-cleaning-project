@@ -1,6 +1,7 @@
 # Data-cleaning-project - Steve Desmarais
-EXPLANATION OF ANALYSIS FILES
+This repo contains two primary files:
 
-Data were provided for two major groups - 1) Train and 2) Test. The groups were defined randomly with 70% in Train and 30% in Test. Since there are 30 subjects, the Train group has 21 members and the Test group has 9 members.
+1) Code Book - Describes the study and variables produced
+2) Instruction List - R code and steps used to take the raw data to the final analysis set.
 
-Data files were provided separately for each group.
+This information is provided for the course project for the Data Cleaning class.
