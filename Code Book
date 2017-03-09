@@ -55,3 +55,12 @@ Variables excluded
 ------------------
 Per instructions, this analysis created a dataset with only measures of mean and standard deviation (std).  This seems reasonable because mean is the most common measure of central tendency and standard deviation represents dispersion.  In normally distributed groups, the mean and median are equal, i.e., 50% of the population is above and 50% are below the mean.  Similarly, standard deviation then tells us that 68% of observations lie within one standard deviation of the mean, 95% are within two standard deviations and 99.5% (virtually all) are within three standard deviations.
 
+--------------
+Variable Names
+--------------
+Names of variables were reviewed and found to be reasonably descriptive since each described the measure as either time (t) or FFT (f).  However, it was bothersome that variable names also contained "()" because parentheses normally are used only to set off parameters.  Therefore, the parentheses were removed from all file names.
+
+------------------
+Final Summary Data
+------------------
+The last step in processing the data was to create a summary file of mean values by subject and activity/test.  This produced 180 rows (6 activities X 30 subjects) as a simple file for analysis.
