@@ -165,6 +165,9 @@ library(dplyr)
 X_data_groups <- group_by(X_data_all, subject, test) 
 X_data_means <- summarize_each(X_data_groups, funs(mean))
 
+ Produced tidy data with 180 observations of mean value for 79 measurement variables for 
+ 30 subjects times 6 activities.
+ 
  ASSIGNMENT COMPLETE
 
 ######################################################################################
